@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
-import me.ajay.networkcaching.R
 import me.ajay.networkcaching.databinding.ActivityRestaurantBinding
 
 @AndroidEntryPoint
