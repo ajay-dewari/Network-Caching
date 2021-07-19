@@ -1,4 +1,4 @@
-package me.ajay.networkcaching.features
+package me.ajay.networkcaching.features.restaurants
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -10,7 +10,9 @@ import me.ajay.networkcaching.data.Restaurant
 import me.ajay.networkcaching.databinding.RestaurantItemBinding
 
 
-class RestaurantAdapter : ListAdapter<Restaurant, RestaurantAdapter.RestaurantViewHolder>(RestaurantComparator()) {
+class RestaurantAdapter : ListAdapter<Restaurant, RestaurantAdapter.RestaurantViewHolder>(
+    RestaurantComparator()
+) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RestaurantViewHolder {
         val binding =
